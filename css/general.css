@@ -1,0 +1,141 @@
+/*
+
+--- 01 Typography Settings
+- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHTS
+Ultrathin: 100
+Thin: 200
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+
+- LINE HEIGHTS
+Default: 
+Small: 
+Medium: 
+Paragraph Default: 
+
+- LETTER SPACING
+
+--- 02 Color Settings
+
+- Primary Color: #0d47a1
+
+Tints: #b6c8e3 #cfdaec
+Shades: #041530
+Accents
+Greys: 
+
+--- 05 Shadows
+
+--- 06 Border Radius
+Default: 
+Medium: 
+
+--- 07 Whitespace
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does not work on Safari and MS Edge */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 9.6rem 4.8rem;
+  margin: 0 auto;
+}
+
+.wide-container {
+  max-width: 140rem;
+  padding: 3.2rem 4.8rem;
+  margin: 0 auto;
+}
+
+/* Headings */
+.heading-primary {
+  padding: 2.4rem 0;
+  font-size: 7.4rem;
+  font-weight: 100;
+}
+
+.heading-secondary {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 500;
+  letter-spacing: 4px;
+  word-spacing: 12px;
+  color: #b6c8e3;
+}
+
+.heading-tertiary {
+  display: block;
+  font-size: 5.2rem;
+  font-weight: 300;
+  color: #b6c8e3;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  line-height: 1.2;
+  padding-bottom: 1.6rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  margin: 2.4rem 0;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #0d47a1;
+  background-color: #b6c8e3;
+  border-radius: 9px;
+}
+
+/* Colors */
+.light-white {
+  color: #b6c8e3;
+}
+
+/* Margin */
+
+.margin-bottom-sm {
+  margin-bottom: 1.6rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 2.4rem;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 3.2rem;
+}
+
+.margin-bottom-xl {
+  margin-bottom: 4.8rem;
+}
