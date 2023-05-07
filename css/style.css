@@ -72,14 +72,15 @@ header {
 
 .aboutme-content {
   display: flex;
+  position: relative;
 }
 
 .aboutme-content::before {
   content: "";
   display: block;
   position: absolute;
-  top: 70rem;
-  left: 35rem;
+  top: -35rem;
+  left: -10rem;
   transform: translate(-1.5px, 0);
   height: 70rem;
   width: 50rem;
@@ -93,8 +94,8 @@ header {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  top: 70rem;
-  left: 35rem;
+  top: -35rem;
+  left: -10rem;
   transform: translate(-50%, 0);
 }
 
@@ -105,8 +106,8 @@ header {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  top: 140rem;
-  left: 35rem;
+  top: 35rem;
+  left: -10rem;
   transform: translate(-50%, 0);
 }
 
@@ -202,6 +203,18 @@ header {
       rgba(4, 21, 48, 0.9)
     ),
     url(../Blender/ForrestCottageFinal.png);
+}
+
+.img-link:link,
+.img-link:visited {
+  text-decoration: none;
+  color: #b6c8e3;
+}
+
+.img-link:hover,
+.img-link:active {
+  text-decoration: none;
+  color: #e7edf6;
 }
 
 .blender-img {

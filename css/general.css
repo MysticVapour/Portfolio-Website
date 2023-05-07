@@ -24,7 +24,7 @@ Paragraph Default:
 
 - Primary Color: #0d47a1
 
-Tints: #b6c8e3 #cfdaec
+Tints: #b6c8e3 #cfdaec #e7edf6
 Shades: #041530
 Accents
 Greys: 
@@ -85,7 +85,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 6.2rem;
-  font-weight: 500;
+  font-weight: 200;
   letter-spacing: 4px;
   word-spacing: 12px;
   color: #b6c8e3;
