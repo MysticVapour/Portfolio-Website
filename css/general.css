@@ -22,10 +22,10 @@ Paragraph Default:
 
 --- 02 Color Settings
 
-- Primary Color: #0d47a1
+- Primary Color: #0d47a1 #64ffda
 
 Tints: #b6c8e3 #cfdaec #e7edf6
-Shades: #041530
+Shades: #041530 
 Accents
 Greys: 
 
@@ -88,14 +88,14 @@ body {
   font-weight: 200;
   letter-spacing: 4px;
   word-spacing: 12px;
-  color: #b6c8e3;
+  color: #64ffda;
 }
 
 .heading-tertiary {
   display: block;
   font-size: 5.2rem;
   font-weight: 300;
-  color: #b6c8e3;
+  color: #64ffda;
 }
 
 .sub-heading {
@@ -115,6 +115,29 @@ body {
   color: #0d47a1;
   background-color: #b6c8e3;
   border-radius: 9px;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #b6c8e3;
+
+  padding-bottom: 2px;
+  border-bottom: 1px solid #b6c8e3;
+
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cfdaec;
+  border-bottom: 1px solid #cfdaec;
+}
+
+.grid-span {
+  grid-column: 1 / -1;
 }
 
 /* Colors */
