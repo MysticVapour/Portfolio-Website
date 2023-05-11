@@ -282,7 +282,7 @@ header {
 .cta-form input,
 .cta-form select,
 .cta-form textarea {
-  width: 150%;
+  width: 50rem;
   padding: 1.2rem;
   font-size: 1.8rem;
   font-family: inherit;
@@ -291,6 +291,10 @@ header {
   background-color: #b6c8e3;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form textarea {
+  max-width: 50rem;
 }
 
 .connect-flex {
@@ -307,4 +311,35 @@ header {
   font-size: 36rem;
   color: #b6c8e3;
   font-weight: 100;
+}
+
+.webdev-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.website-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+}
+
+.website:link,
+.website:visited {
+  width: 55rem;
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #0d47a1;
+  padding: 1.2rem;
+  background-color: #b6c8e3;
+  border-radius: 0 0 9px 9px;
+}
+
+.website-img {
+  width: 55rem;
+  border-radius: 9px 9px 0 0;
 }
