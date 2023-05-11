@@ -343,3 +343,21 @@ header {
   width: 55rem;
   border-radius: 9px 9px 0 0;
 }
+
+/* Footer */
+.section-footer {
+  height: 3rem;
+  background-color: #0d47a1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+
+.footer-text {
+  font-size: 2rem;
+  color: #b6c8e3;
+}
