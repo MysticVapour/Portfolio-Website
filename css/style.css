@@ -32,7 +32,10 @@ header {
   align-items: center;
 }
 
-.title::before {
+.title {
+  padding-left: 3.6rem;
+}
+/* .title::before {
   content: "";
   display: block;
   position: absolute;
@@ -42,9 +45,9 @@ header {
   height: 40rem;
   width: 50rem;
   border-right: 3px solid #b6c8e3;
-}
+} */
 
-.dot-hero-1 {
+/* .dot-hero-1 {
   height: 2.5rem;
   width: 2.5rem;
   background-color: #b6c8e3;
@@ -54,7 +57,7 @@ header {
   top: 40rem;
   right: 55rem;
   transform: translate(50%, 0);
-}
+} */
 
 /* About me */
 .section-aboutme {
@@ -72,10 +75,10 @@ header {
 
 .aboutme-content {
   display: flex;
-  position: relative;
+  /* position: relative; */
 }
 
-.aboutme-content::before {
+/* .aboutme-content::before {
   content: "";
   display: block;
   position: absolute;
@@ -85,9 +88,9 @@ header {
   height: 70rem;
   width: 50rem;
   border-left: 3px solid #b6c8e3;
-}
+} */
 
-.dot-aboutme-1 {
+/* .dot-aboutme-1 {
   height: 2.5rem;
   width: 2.5rem;
   background-color: #b6c8e3;
@@ -109,7 +112,7 @@ header {
   top: 35rem;
   left: -10rem;
   transform: translate(-50%, 0);
-}
+} */
 
 .aboutme-text {
   font-size: 3rem;
@@ -136,6 +139,25 @@ header {
 .star-icon {
   color: #b6c8e3;
   font-size: 2.4rem;
+}
+
+/* Socials */
+.section-socials {
+  background-color: #030e20;
+}
+
+.socials {
+  display: flex;
+  gap: 4.8rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  padding-bottom: 4.8rem;
+}
+
+.social-icon {
+  font-size: 6.4rem;
+  color: #b6c8e3;
 }
 
 /* My work */
@@ -273,8 +295,8 @@ header {
 
 .cta-form label {
   display: block;
-  font-size: 4.8rem;
-  font-weight: 300;
+  font-size: 3.6rem;
+  font-weight: 200;
   margin-bottom: 1.8rem;
   color: #b6c8e3;
 }
@@ -346,7 +368,6 @@ header {
 
 /* Footer */
 .section-footer {
-  height: 3rem;
   background-color: #0d47a1;
 }
 
